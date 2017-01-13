@@ -1,0 +1,23 @@
+Celem działania aplikacji będzie pobranie z serwisu Ceneo.pl wszystkich opinii o
+produkcie, którego kod zostanie podany jako parametr. Dla uproszczenia
+działanie aplikacji można ograniczyć do produktów z działów Komputery,
+Fotografia oraz Telefony i akcesoria.
+
+Dla każdej opinii należy pobrać:
+a. Wady produktu
+b. Zalety produktu
+c. Podsumowanie opinii
+d. Liczba gwiazdek
+e. Autor opinii (jeśli brakuje, to np. anonim)
+f. Data wystawienia opinii
+g. POLECAM / NIE POLECAM
+h. Ile osób uznało opinię za przydatną, a ile za nieprzydatną
+
+W przypadku, gdy brakuje którejś wartości pole w tabeli należy pozostawić
+puste.
+
+Dla każdego produktu należy przechować w bazie danych:
+a. Rodzaj urządzenia
+b. Markę
+c. Model
+d. Dodatkowe uwagi 
